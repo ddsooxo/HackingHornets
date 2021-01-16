@@ -36,6 +36,7 @@
     "express-flash": "^0.0.2",
     "express-handlebars": "^5.2.0",
     "express-session": "^1.17.1",
+    "form-data": "^3.0.0",
     "googleapis": "^67.0.0",
     "instagram-node": "^0.5.8",
     "jquery": "^3.5.1",
@@ -71,7 +72,7 @@
     "pug": "^3.0.0",
     "stripe": "^8.130.0",
     "tumblr.js": "^3.0.0",
-    "twilio": "^3.54.0",
+    "twilio": "^3.55.0",
     "twitter-lite": "^0.14.0",
     "validator": "^13.5.2"
   },
