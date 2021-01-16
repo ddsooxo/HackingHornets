@@ -112,7 +112,6 @@
 
 ### 5.0.0 (April 1, 2018)
 - NodeJS 8.0+ is now required
-- Removed dependency on Bluebird in favor of native NodeJS promisify support
 - Font awesome 5 Upgrade
 - Fix console warning about Foursquare API version
 - Added environment configs to eslint configs and cleaned up code (Thanks to @nacimgoura)
