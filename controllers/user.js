@@ -1,4 +1,4 @@
-const { promisify } = require('util');
+
 const crypto = require('crypto');
 const nodemailer = require('nodemailer');
 const nodemailerSendgrid = require('nodemailer-sendgrid');
@@ -7,8 +7,6 @@ const _ = require('lodash');
 const validator = require('validator');
 const mailChecker = require('mailchecker');
 const User = require('../models/User');
-
-const randomBytesAsync = promisify(crypto.randomBytes);
 
 /**
  * Helper Function to Send Mail.
@@ -361,8 +359,6 @@ exports.getVerifyEmail = (req, res, next) => {
     return res.redirect('/account');
   }
 
-  const createRandomToken = randomBytesAsync(16)
-    .then((buf) => buf.toString('hex'));
 
   const setRandomToken = (token) => {
     User
